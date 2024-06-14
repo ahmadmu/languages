@@ -1,0 +1,50 @@
+<ng-container *transloco="let t">
+  <div class="app" [dir]="rtl ? 'rtl': 'ltr'">
+    <h1>{{ t('header') }}</h1>
+    <div class="controls-bar">
+      <div class="languages">
+        <div>{{ t('languages') }}</div>
+        <button [class.active]="lang == 'en'"
+          (click)="changeLang('en')">
+          English
+        </button>
+        <button [class.active]="lang == 'de'"
+          (click)="changeLang('de')">
+          Deutsch
+        </button>
+        <button [class.active]="lang == 'ar'"
+          (click)="changeLang('ar')">
+          عربي
+        </button>
+        <button [class.active]="lang == 'ja'"
+          (click)="changeLang('ja')">
+          日本語
+        </button>
+      </div>
+      <div class="rtl-control">
+        <div>{{ t('orientation') }}</div>
+        <label>
+          <input type="checkbox" [(ngModel)]="rtl" #rtlControl="ngModel">
+          <span>{{ t('rightToLeft') }}</span>
+        </label>
+        <label>
+          <input type="checkbox" [(ngModel)]="vertical" #verticalControl="ngModel">
+          <span>{{ t('vertical') }}</span>
+        </label>
+      </div>
+    </div>
+    <div class="content">
+      <div class="left-area">
+        <h2>{{ t('leftAreaTitle') }}</h2>
+        <p>{{ t('leftAreaDescription') }}</p>
+        <a href="../static">static</a>
+      </div>
+      <div class="right-area">
+        <h2>{{ t('textContentHeader') }}</h2>
+        <div class="text-content">
+          <div [class.vertical]="vertical">{{ t('textContent') }}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</ng-container>

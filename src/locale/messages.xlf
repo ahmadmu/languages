@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="4909598926884124558" datatype="html">
+        <source>This is a title</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/static/static.component.html</context>
+          <context context-type="linenumber">5,6</context>
+        </context-group>
+        <note priority="1" from="description">title description</note>
+      </trans-unit>
+      <trans-unit id="4548327580482269342" datatype="html">
+        <source>This is some content that is below the title, it&apos;s supposed to show a subtext that is underneath the section header</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/static/static.component.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3058540844559394580" datatype="html">
+        <source>Text content</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/static/static.component.html</context>
+          <context context-type="linenumber">10,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7639363270300098019" datatype="html">
+        <source>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquam risus ac risus lobortis varius. Curabitur dapibus ac massa at auctor. Maecenas consequat tempor laoreet. In quis est sem. Curabitur metus augue, ultrices fringilla ex vel, hendrerit sollicitudin ligula. Vestibulum ut magna turpis. Integer vitae odio sed orci suscipit volutpat nec a mi. Phasellus sit amet sem luctus, varius orci nec, finibus neque. Proin eu tempor nisi. Cras eget accumsan ante. Nam imperdiet nibh in nibh eleifend commodo ac et erat. Proin id metus eget lorem ultrices consectetur. Sed viverra efficitur urna, vitae imperdiet neque commodo at. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse convallis dignissim nunc eu ultricies. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/static/static.component.html</context>
+          <context context-type="linenumber">12,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7268244249001911367" datatype="html">
+        <source>Languages demo application</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/static/static.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

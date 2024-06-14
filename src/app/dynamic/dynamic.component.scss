@@ -1,0 +1,78 @@
+.app {
+  width: 800px;
+  margin: 20px auto;
+}
+
+.controls-bar {
+  padding-bottom: 18px;
+
+  .languages {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 18px;
+  }
+}
+
+button {
+  height: 32px;
+  border: 1px solid #001F3F;
+  border-radius: 2px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all ease-out .1s;
+  padding-left: 12px;
+  padding-right: 12px;
+  &:hover {
+    transform: translate(2px, -2px);
+  }
+  &.active {
+    background-color: #001F3F;
+    color: white;
+  }
+}
+
+.content {
+  display: flex;
+}
+
+.left-area {
+  width: 33%;
+  flex-basis: 33%;
+}
+
+h2 {
+  margin-bottom: 12px;
+}
+
+.right-area {
+  padding-left: 20px;
+  width: 66%;
+  flex-basis: 66%;
+}
+
+.text-content {
+  width: 100%;
+  height: 400px;
+  overflow: auto;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.rtl-control {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.vertical {
+  -webkit-writing-mode: vertical-rl;
+  -moz-writing-mode: vertical-rl;
+  -ms-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+
+  -webkit-text-orientation: upright;
+  -moz-text-orientation: upright;
+  -ms-text-orientation: upright;
+  text-orientation: upright;
+}
